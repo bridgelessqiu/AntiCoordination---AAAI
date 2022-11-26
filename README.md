@@ -18,29 +18,28 @@
 
 ## Examples
 
-To run self essential dynamics (SE) from a randomly generated initial configuration:
+### To run self essential dynamics (SE) from a randomly generated initial configuration:
 1. `cd heuristics/`
 2. `./se_convergence network_type network_name`
 
 For example:
-- to run the SE dynamics on the gnp network of size 10,000: `./se_convergence random gnp_10000`
+- SE dynamics on the gnp network of size 10,000: `./se_convergence random gnp_10000`
 
-- to run the SE dynamics on the astroph network: `./se_convergence real astroph`
+- SE dynamics on the astroph network: `./se_convergence real astroph`
 
-To run self non-essential (SN) dynamics from a randomly generated initial configuration:
-1. cd heuristics/
-2. ./sn_convergence network_type network_name
+### To run self non-essential (SN) dynamics from a randomly generated initial configuration:
+1. `cd heuristics/`
+2. `./sn_convergence network_type network_name`
     
-    Example: to run the SN dynamics on the gnp network of size 10,000:
-             ./sn_convergence random gnp_10000
+For example: 
+- SN dynamics on the gnp network of size 10,000: `./sn_convergence random gnp_10000`
 
-             to run the SN dynamics on the astroph network:
-             ./sn_convergence real astroph
+- SN dynamics on the astroph network: `./sn_convergence real astroph`
 
-To count the number of NE in the provided example instance under the SE scheme:
-1. cd heuristics/
-2. ./se_count_fp
+### Count the number of NE in the provided example instance under the SE Scheme:
+1. `cd heuristics/`
+2. `./se_count_fp`
 
-To count the number of NE in the provided example instance under the SN scheme:
-1. cd heuristics/
-2. ./sn_count_fp
+### Count the number of NE in the provided example instance under the SN Scheme:
+1. `cd heuristics/`
+2. `./sn_count_fp`
