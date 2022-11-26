@@ -1,9 +1,9 @@
-## Directory structures:
-- heuristics: contains code for system evolution and counting fixed points
-- networks: contains selected networks
+## Directory structure
+- **heuristics**: contains code for system evolution and counting fixed points
+- **networks**: contains selected networks
 
 
-To recompile the program (if needed): 
+## Recompile the program (if needed): 
 1. g++ -std=c++11 -O3 heuristic.cpp other_function.cpp se_convergence.cpp -o se_convergence
 2. g++ -std=c++11 -O3 heuristic.cpp other_function.cpp sn_convergence.cpp -o sn_convergence
 3. g++ -std=c++11 -O3 heuristic.cpp other_function.cpp se_count_fp.cpp -o se_count_fp
