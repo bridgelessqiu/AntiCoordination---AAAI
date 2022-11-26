@@ -1,4 +1,4 @@
-# Please see the file Appendix.pdf for the full proofs of Theorems in the paper
+# The file Appendix.pdf contains the full proofs of Theorems in the paper
 
 ## Directory structure
 - **heuristics**: contains code for system evolution and counting fixed points
