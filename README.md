@@ -1,4 +1,4 @@
-Directory structures:
+## Directory structures:
 - heuristics: contains code for system evolution and counting fixed points
 - networks: contains selected networks
 
