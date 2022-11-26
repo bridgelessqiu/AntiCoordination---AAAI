@@ -18,7 +18,7 @@
 
 ## Examples
 
-### To run self essential dynamics (SE) from a randomly generated initial configuration:
+### Self essential dynamics (SE) from a randomly generated initial configuration:
 1. `cd heuristics/`
 2. `./se_convergence network_type network_name`
 
@@ -27,7 +27,7 @@ For example:
 
 - SE dynamics on the astroph network: `./se_convergence real astroph`
 
-### To run self non-essential (SN) dynamics from a randomly generated initial configuration:
+### Self non-essential (SN) dynamics from a randomly generated initial configuration:
 1. `cd heuristics/`
 2. `./sn_convergence network_type network_name`
     
