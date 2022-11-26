@@ -16,15 +16,16 @@
     * power_10000, gnp_10000, small_world_10000 (random networks)
     * astroph, deezer, google_plus (real networks)
 
-To run self essential dynamics (SE) from a randomly generated initial configuration:
-1. cd heuristics/
-2. ./se_convergence network_type network_name
-     
-    Example: to run the SE dynamics on the gnp network of size 10,000:
-             ./se_convergence random gnp_10000
+## Examples
 
-             to run the SE dynamics on the astroph network:
-             ./se_convergence real astroph
+To run self essential dynamics (SE) from a randomly generated initial configuration:
+1. `cd heuristics/`
+2. `./se_convergence network_type network_name`
+
+For example:
+- to run the SE dynamics on the gnp network of size 10,000: `./se_convergence random gnp_10000`
+
+- to run the SE dynamics on the astroph network: `./se_convergence real astroph`
 
 To run self non-essential (SN) dynamics from a randomly generated initial configuration:
 1. cd heuristics/
