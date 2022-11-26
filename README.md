@@ -1,11 +1,6 @@
 Directory structures:
-
-    heuristics: contains code for system evolution and counting fixed points
-    networks: contains selected networks
-
-- network_type: random, real
-- network_name: power_10000, gnp_10000, small_world_10000 (random networks)
-                astroph, deezer, google_plus (real networks)
+- heuristics: contains code for system evolution and counting fixed points
+- networks: contains selected networks
 
 
 To recompile the program (if needed): 
@@ -13,6 +8,12 @@ To recompile the program (if needed):
 2. g++ -std=c++11 -O3 heuristic.cpp other_function.cpp sn_convergence.cpp -o sn_convergence
 3. g++ -std=c++11 -O3 heuristic.cpp other_function.cpp se_count_fp.cpp -o se_count_fp
 4. g++ -std=c++11 -O3 heuristic.cpp other_function.cpp sn_count_fp.cpp -o sn_count_fp
+
+
+Parameters:
+- network_type: random, real
+- network_name: power_10000, gnp_10000, small_world_10000 (random networks)
+                astroph, deezer, google_plus (real networks)
 
 To run self essential dynamics (SE) from a randomly generated initial configuration:
 1. cd heuristics/
