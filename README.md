@@ -1,4 +1,9 @@
-# The file Appendix.pdf contains the full proofs of Theorems in the paper
+# Nash and Convergence of Anti-coordination Games
+Paper: *Networked Anti-Coordination Games Meet Graphical Dynamical Systems: Equilibria and Convergence*
+<br/>
+**Full version** (contains complete proofs of theorems): [https://arxiv.org/pdf/2301.02889.pdf]
+
+
 
 ## Directory structure
 - **heuristics**: contains code for system evolution and counting fixed points
